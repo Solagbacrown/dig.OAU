@@ -1,0 +1,157 @@
+@media (min-width: 1400px) {
+	.top-search-input-wrap .close-icon {
+		right: calc(50% - 370px);
+	}
+}
+
+@media (max-width: 991px) {
+  .menu-area {
+    padding-bottom: 28px;
+  }
+  .event-text {
+    padding: 10px 30px;
+  }
+  .menuzord .showhide em {
+    background: #959595;
+  }
+  .menuzord-responsive .showhide {
+    margin: 0 10px;
+  }
+  .top-search-input-wrap .search-wrap .search.educon-top-search {
+	width: 70%;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner-text .heading {
+    font-size: 39px;
+    line-height: 44px;
+  }
+  .why-eschool {
+    text-align: center;
+  }
+  .why-eschool [class*="col-sm-"] {
+    display: block;
+  }
+  .about-eschool-text {
+    margin-top: 60px;
+  }
+  .upcomming-event .image, .event-text, .event-date {
+    display: block;
+    width: 100%;
+  }
+  .upcomming-event .event-text {
+    padding: 40px 0 0 0;
+    text-align: center;
+  }
+  .upcomming-event .event-date {
+    padding-top: 0;
+  }
+  .event-date .date {
+    font-size: 20px;
+    line-height: 33px;
+    padding-right: 5px;
+    display: inline-block;
+  }
+  .newsletter-form .input-box {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .partner-logo {
+    text-align: center;
+  }
+  .partner-logo img {
+    display: inline-block;
+  }
+  .main-footer {
+    text-align: center;
+  }
+  .footer-contact-information .single-contact {
+    align-items: center;
+    justify-content: center;
+  }
+  .main-footer .usefull-link {
+    padding: 40px 0;
+  }
+  .home-blog-post {
+    text-align: center;
+  }
+  .event-section {
+    text-align: center;
+  }
+  .event-section .section-heading {
+    padding-bottom: 0;
+  }
+  .event-section .view-all-event {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .top-ber-contact {
+    text-align: center;
+  }
+  .top-bar-area .social-icon-login {
+    text-align: center;
+  }
+  .top-bar-area .social-icons, .top-bar-area .eschool-login {
+    margin-top: 15px;
+    display: inline-block;
+    float: none;
+    width: auto;
+  }
+  .section-heading {
+    padding-bottom: 30px;
+  }
+  h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .strating-story-area {
+    text-align: center;
+  }
+  .starting-stroy-text ul li:last-child {
+    padding-right: 0;
+  }
+  .our-progress-area {
+    text-align: center;
+  }
+  .blog-detail-social-share {
+    text-align: left;
+  }
+  .event-categories2-text {
+    padding-top: 40px;
+    text-align: center;
+  }
+  .event-categories2-image img, .event-categories2-image img {
+    width: 100%;
+  }
+  .single-course-teacher .teacher img {
+    width: 100%;
+  }
+  .eschool-countdown .countdown-section {
+    display: block;
+    float: left;
+    font-size: 105%;
+    text-align: center;
+  }
+  .eschool-countdown .countdown-amount {
+    font-size: 140%;
+    border: 1px solid #959595;
+    line-height: 50px;
+    font-weight: 700;
+    display: block;
+    margin: 5px;
+    border-radius: 6px;
+  }
+  .eschool-countdown .countdown-period {
+    display: block;
+  }
+  .menuzord-menu {
+		padding-right: 0;
+	}
+    .top-search-input-wrap .search-wrap .search.educon-top-search {
+  	width: 90%;
+    }
+    .top-search-input-wrap .close-icon{
+        right:30px;
+    }
+}

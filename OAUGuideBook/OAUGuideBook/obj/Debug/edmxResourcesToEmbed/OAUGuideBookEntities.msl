@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OAUGuideBookDBModelStoreContainer" CdmEntityContainer="OAUGuideBookDBEntities">
+    <EntitySetMapping Name="OAUGuideBookTables">
+      <EntityTypeMapping TypeName="OAUGuideBookDBModel.OAUGuideBookTable">
+        <MappingFragment StoreEntitySet="OAUGuideBookTable">
+          <ScalarProperty Name="ContentDate" ColumnName="ContentDate" />
+          <ScalarProperty Name="ContentApproval" ColumnName="ContentApproval" />
+          <ScalarProperty Name="ContentVideo" ColumnName="ContentVideo" />
+          <ScalarProperty Name="ContentPicture" ColumnName="ContentPicture" />
+          <ScalarProperty Name="ContentDescription" ColumnName="ContentDescription" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="ContentId" ColumnName="ContentId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

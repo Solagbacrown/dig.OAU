@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OAUGuideBookDBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="OAUGuideBookDBModelStoreContainer">
+    <EntitySet Name="OAUGuideBookTable" EntityType="OAUGuideBookDBModel.Store.OAUGuideBookTable" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="OAUGuideBookTable">
+    <Key>
+      <PropertyRef Name="ContentId" />
+    </Key>
+    <Property Name="ContentId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="ContentDescription" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ContentPicture" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContentVideo" Type="nvarchar" MaxLength="50" />
+    <Property Name="ContentApproval" Type="bit" />
+    <Property Name="ContentDate" Type="datetime" />
+  </EntityType>
+</Schema>

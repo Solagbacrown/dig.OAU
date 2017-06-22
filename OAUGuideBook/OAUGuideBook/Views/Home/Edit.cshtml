@@ -1,0 +1,106 @@
+﻿@model OAUGuideBook.Models.GuideBookModel
+@{
+    ViewBag.Title = "";
+
+
+		
+		<!-- Put favicon.ico and apple-touch-icon(s).png in the images folder -->
+	    <link rel="shortcut icon" href="assets/images/favicon.ico">
+		    	
+		<!-- CSS StyleSheets -->
+		<link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="~/assets/css/assets.css">
+		
+		<link rel="stylesheet" href="~/assets/css/style.css">
+		<link id="theme_css" rel="stylesheet" href="~/assets/css/light.css">
+		
+		<!--[if lt IE 9]>
+	    	<script type="text/javascript" src="assets/js/html5.js"></script>
+	    <![endif]-->
+		
+		<!-- Skin CSS file -->
+		<link id="skin_css" rel="stylesheet" href="~/assets/css/skins/default.css">
+
+		}
+<center>
+    <div class="login-box-lg">
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success">
+           <b> @TempData["Success"].ToString()</b>
+            @*<a href="#" class="close">&times;</a>*@
+        </div>
+    }
+    
+</div>
+
+		    <div style="background-color:cadetblue" id="contentWrapper">
+                <center>
+                 <div  class="pageWrapper animsition">
+                     <div class="heading centered padding-vertical-20">
+										<i class="fa fa-info-circle tbl main-color"></i>
+										<h3 class="uppercase head-4 bold">Content Form</h3>
+									</div>
+                
+                   
+                     <div style="background-color:#eee; width:50%; text-align:left ">
+    
+		   
+          
+							  <div style="color:black" class="login-box-lg">
+								
+				    				
+                               
+                    
+                                    @using (Html.BeginForm("Edit", "Home", FormMethod.Post))
+{
+				    					<div class="form-input ; col-md-12">
+                                             @Html.HiddenFor(m => m.ContentId)
+				    						<label>TITLE<span style=" color:red">*</span></label>
+                                            @Html.TextBoxFor(m => m.Title, new { @class = "form-control ", @required = "" })
+                                            
+				    					</div>
+				    					<div class="form-input ; col-md-12">
+				    						<label>CONTENT<span style=" color:red">*</span></label>
+                                            @Html.TextAreaFor(m => m.ContentDescription, new { @class = "form-control ", @required = "" })
+                                         
+				    					</div>
+				    					
+				    					
+				    				<br />
+			    					
+                                         <div style="margin-top:20%" class="form-input">
+                                        
+                                              <input type="submit" value="EDIT" class="btn btn-lg btn-block main-bg " />
+                                             
+				    						</div>
+                                          
+				    					
+                                        
+
+                                     }   
+                        </div>
+                         
+                        </div>
+                      
+				    			
+				    			
+							</div>
+                               </center>
+						</div>
+                            
+			
+				
+		
+		    	
+		<!-- Back to top Link -->
+	    <a id="to-top"><span class="fa fa-chevron-up shape main-bg"></span></a>
+
+    <script type="text/javascript" src="~/assets/js/assets.min.js"></script>
+
+            <!-- general script file -->
+            <script type="text/javascript" src="~/assets/js/script.js"></script>
+		
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
